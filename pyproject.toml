@@ -1,0 +1,30 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+select = ["D", "E", "F", "I"]
+
+[tool.ruff.isort]
+known-first-party = ["greenspace_accessibility_sabadell"]
+
+
+[tool.nbqa.addopts]
+# ignore documentation and import errors in notebooks
+ruff = ["--ignore=D", "--ignore=I"]
+
+[tool.poetry]
+name = "greenspace-accessibility-sabadell"
+version = "0.1.0"
+description = "Study of the accessibility of urban greenspaces with different vegetation maps (NDVI, LULC and imagery): a case study in Sabadell, Catalonia"
+license = "GPL-3.0"
+authors = [
+    "Martí Bosch",
+]
+packages = [
+    { include = "greenspace_accessibility_sabadell" },
+]
