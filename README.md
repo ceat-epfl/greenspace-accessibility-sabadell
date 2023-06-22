@@ -1,6 +1,6 @@
 <!-- prettier-ignore-start -->
 
-[![lint](https://github.com/martibosch/greenspace-accessibility-sabadell/actions/workflows/ci.yaml/badge.svg)](https://github.com/martibosch/greenspace-accessibility-sabadell/actions/workflows/lint.yaml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ceat-epfl/greenspace-accessibility-sabadell/main.svg)](https://results.pre-commit.ci/latest/github/ceat-epfl/greenspace-accessibility-sabadell/main)
 [![GitHub license](https://img.shields.io/github/license/martibosch/greenspace-accessibility-sabadell.svg)](https://github.com/martibosch/greenspace-accessibility-sabadell/blob/main/LICENSE)
 
 <!-- prettier-ignore-end -->
